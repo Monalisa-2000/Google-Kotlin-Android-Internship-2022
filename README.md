@@ -41,8 +41,8 @@ Grocery app using kotlin
 - [Project ZIP](https://drive.google.com/file/d/1gXzRoHrA1wAtu7on9_oqtFIPoPi2yN89/view?usp=sharing)
 
 ## **Author -**
-- [Sunny Sahsi](
-https://www.linkedin.com/in/sahsisunny/)
+- [Monalisa Khanda](
+https://www.linkedin.com/in/monalisa-khanda-287631187/)
 
 ## **Acknowledgements -**
 - [SmartInternz](https://www.smartinternz.com/)
@@ -59,22 +59,13 @@ https://www.linkedin.com/in/sahsisunny/)
 - [Material Design](https://material.io/develop/android)
 - [ConstraintLayout](https://developer.android.com/reference/androidx/constraintlayout/widget/ConstraintLayout)
 
-## **License -**
-This project is licensed under the MIT License - see the [LICENSE]() file for details
-
 ## **Contact -**
-- [LinkedIn](https://www.linkedin.com/in/sahsisunny/)
-- [Instagram](https://www.instagram.com/sahsisunny/)
-- [Facebook](https://www.facebook.com/sahsisunny/)
-- [Twitter](https://twitter.com/sahsisunny)
-- [GitHub](https://github.com/sahsisunny)
-- [Email](mailto:sahsisunny@gmail.com)
-
-## **Support -**
-If you liked the project, please give it a star ⭐
+- [LinkedIn](https://www.linkedin.com/in/monalisa-khanda-287631187/)
+- [GitHub](https://github.com/Monalisa-2000)
 
 ## **Feedback -**
-If you have any feedback, please reach out to me at
+If you have any feedback, please reach out to me at - [Email](mailto:monalisakhanda2610@gmail.com)
+
 
 ## **Contributing -**
 Contributions are always welcome!
