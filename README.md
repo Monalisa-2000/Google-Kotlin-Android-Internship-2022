@@ -16,7 +16,9 @@ Grocery app using kotlin
 - Display the list in a recycler view
 
 ### **Screenshots -**
-![HELP] 
+![HELP] ![groceryimage](https://user-images.githubusercontent.com/75751123/190925785-95931cb1-3d72-4626-bc81-35945eac6527.PNG)
+![groceryimage2](https://user-images.githubusercontent.com/75751123/190925801-c59896f3-fe59-4497-bc92-d7104c6f2f97.PNG)
+
 
 ### Files Used
 
