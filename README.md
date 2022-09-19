@@ -2,18 +2,18 @@
 Virtual Internship - Android Application Development Using Kotlin
 
 ## **Major Projects -** 
-1 Nearby App
-2 Grocery App
+- Nearby Places App
+- Grocery App
 
 ## **Minor Projects-**
-1.Lemonade App->Happy Birthday App->DiceRoller
-2.Dogglers App
-3.Lunch Tray App->Cupcake App
-4.Amphibians App
-5.Forage App
-6.Water Me!App
+- Lemonade App->Happy Birthday App->DiceRoller
+- Dogglers App
+- Lunch Tray App->Cupcake App
+- Amphibians App
+- Forage App
+- Water Me!App
 
-### **Features -**
+### **Features of Grocery App-**
 - Add items to the list
 - Edit items in the list
 - Delete items from the list
@@ -44,12 +44,6 @@ Virtual Internship - Android Application Development Using Kotlin
 | | - `GroceryItemDialog.kt` |
 | | - `GroceryViewModel.kt` |
 | | - `GroceryViewModelFactory.kt` |
-
-
-## Downloads
-- [Grocery APK](https://drive.google.com/file/d/1X3yKptiFAkyjj-WhTMxaGuzC45ALVDA6/view?usp=sharing)
-
-- [Project ZIP](https://drive.google.com/file/d/1gXzRoHrA1wAtu7on9_oqtFIPoPi2yN89/view?usp=sharing)
 
 ## **Author -**
 - [Monalisa Khanda](
