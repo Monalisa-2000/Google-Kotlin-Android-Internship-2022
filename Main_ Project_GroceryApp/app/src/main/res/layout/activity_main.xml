@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F3F4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/purple_500"
+        android:layout_marginTop="14dp"
+        android:textStyle="bold"
+        android:text="Hi, Username"/>
+
+    <TextView
+        android:id="@+id/tvCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_below="@+id/tv_username"
+        android:text="Select Category"/>
+
+    <ListView
+        android:id="@+id/list_category"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvCategory"
+        android:layout_marginTop="24dp"
+        android:listSelector="@android:color/transparent"
+        tools:listitem="@layout/category" />
+
+</RelativeLayout>

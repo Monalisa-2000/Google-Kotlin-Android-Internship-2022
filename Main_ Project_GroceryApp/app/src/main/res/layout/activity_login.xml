@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBF0F4"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="groceryBackground"
+        android:src="@drawable/grocery" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#312e2f"
+        android:textSize="24sp"
+        android:text="Grocery App"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tv_email"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginHorizontal="32dp"
+        app:boxStrokeColor="@color/purple_500"
+        app:hintTextColor="@color/purple_500"
+        app:startIconDrawable="@drawable/ic_baseline_email_24"
+        android:hint="Email"
+        android:layout_below="@+id/tv">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_email"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tv_password"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp"
+        android:layout_marginTop="12dp"
+        app:boxStrokeColor="@color/purple_500"
+        android:layout_marginHorizontal="32dp"
+        app:hintTextColor="@color/purple_500"
+        app:startIconDrawable="@drawable/ic_baseline_lock_24"
+        app:endIconMode="password_toggle"
+        android:hint="Password"
+        android:layout_below="@+id/tv_email">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_password"
+        android:textAllCaps="false"
+        android:padding="12dp"
+        android:backgroundTint="#27539a"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="New Member ?"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnLogin"/>
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv2"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#27539a"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:textAllCaps="false"
+        android:text="Sign up"/>
+
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".paymentActivity">
+
+    <TextView
+        android:id="@+id/tv_payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/purple_700"
+        android:layout_marginTop="20dp"
+        android:text="Select Payment Method :"/>
+
+    <RadioGroup
+        android:id="@+id/rgPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_payment"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="24dp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Internet Banking" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Credit/Debit Cards" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="EMI" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="UPI" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Cash On Delivery" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/purple_700"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/rgPayment"
+        android:text="Order Details"/>
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date: 08/10/2021"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="12dp"
+        android:layout_below="@id/tv_details"/>
+
+    <TextView
+        android:id="@+id/tv_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Items: 4"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="12dp"
+        android:layout_below="@id/tv_date"/>
+
+    <TextView
+        android:id="@+id/tv_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Total Amount: ₹0"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="12dp"
+        android:layout_below="@id/tv_items"/>
+
+    <Button
+        android:id="@+id/btnOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingVertical="16dp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="12dp"
+        android:text="Place Order"/>
+
+</RelativeLayout>

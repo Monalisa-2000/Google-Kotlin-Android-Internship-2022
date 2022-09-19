@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity">
+
+    <ListView
+        android:id="@+id/cart_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll2"/>
+
+    <ImageView
+        android:id="@+id/imgNoitem"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:layout_above="@id/noitem"
+        android:src="@drawable/noitem"/>
+
+    <TextView
+        android:id="@+id/noitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:text="No items in cart !!"/>
+
+    <RelativeLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#EAF1F4"
+        android:gravity="end">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="20sp"
+                    android:text="Total Amount" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end">
+                <Button
+                    android:id="@+id/btnBuy"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#F6693D"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:layout_marginRight="12dp"
+                    android:text="₹ 0\n Buy" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
