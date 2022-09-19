@@ -1,11 +1,17 @@
 # SPSGP-76766-Virtual-Internship---Android-Application-Development-Using-Kotlin
 Virtual Internship - Android Application Development Using Kotlin
 
-## **Project Name -** 
-Grocery app using kotlin
-### **Description -** 
-- As we can't remember everything, users frequently forget to buy the things they want to buy. However, with the assistance of this app, you can make a list of the groceries you intend to buy so that you don't forget anything.
-- This app is a simple grocery list app that allows you to add, edit, and delete items from your list. 
+## **Major Projects -** 
+1 Nearby App
+2 Grocery App
+
+## **Minor Projects-**
+1.Lemonade App->Happy Birthday App->DiceRoller
+2.Dogglers App
+3.Lunch Tray App->Cupcake App
+4.Amphibians App
+5.Forage App
+6.Water Me!App
 
 ### **Features -**
 - Add items to the list
@@ -16,8 +22,7 @@ Grocery app using kotlin
 - Display the list in a recycler view
 
 ### **Screenshots -**
-![groceryimage](https://user-images.githubusercontent.com/75751123/190925785-95931cb1-3d72-4626-bc81-35945eac6527.PNG)
-![groceryimage2](https://user-images.githubusercontent.com/75751123/190925801-c59896f3-fe59-4497-bc92-d7104c6f2f97.PNG)
+ ![1](https://user-images.githubusercontent.com/75751123/191116172-8ae5e373-9c79-4f3a-8f6f-8b2486db62b3.jpeg)
 
 
 ### Files Used
